@@ -15,10 +15,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-import os
 from pathlib import Path
-
 from django.contrib.messages import constants as messages
 
 LOGIN_REDIRECT_URL = '/dashboard/'  # Redirect to dashboard after login
@@ -38,7 +35,8 @@ SECRET_KEY = 'django-insecure-8pvqz)iq4r@@%uq00zvohd80y%yh2ez=$nw+_-m(2*iytw8d_8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS from environment variable (comma-separated), fallback to localhost and 127.0.0.1
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
 
 
 # Application definition
@@ -87,13 +85,6 @@ WSGI_APPLICATION = 'myproject1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -104,7 +95,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT'),
     }
 }
-
 
 
 # Password validation
@@ -143,10 +133,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-#Add Manually
+# Add Manually
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR / "static")
-   
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
