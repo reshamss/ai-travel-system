@@ -36,7 +36,8 @@ SECRET_KEY = 'django-insecure-8pvqz)iq4r@@%uq00zvohd80y%yh2ez=$nw+_-m(2*iytw8d_8
 DEBUG = True
 
 # ALLOWED_HOSTS from environment variable (comma-separated), fallback to localhost and 127.0.0.1
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = ['ai-travel-system.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
