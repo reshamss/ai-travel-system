@@ -1,0 +1,301 @@
+destination,destination_type,preferred_climate,distance,budget,food_preference,activity_preference,best_months,top_places_to_visit,local_food_specialty
+Gir,Forest,Tropical,Long,Low,Veg,Trekking,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Mandawa,Desert,Cool,Short,Low,Vegan,Camping,Oct-Mar,"Mandawa Fort, Havelis",Dal Baati Churma
+Rann of Kutch,Desert,Moderate,Medium,High,Vegan,Photography,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Delhi,City,Dry,Medium,Medium,Vegan,Relaxing,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Kovalam,Beach,Tropical,Medium,High,Veg,Trekking,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Agra Fort,Fort,Cool,Long,High,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Gokarna,Beach,Cool,Medium,Medium,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Dry,Short,Medium,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Cool,Short,High,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Bikaner,Desert,Cool,Short,High,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Periyar,Forest,Moderate,Medium,Low,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Lonavala,Hill Station,Tropical,Medium,Low,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Moderate,Long,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Dudhsagar,Waterfall,Cool,Short,Low,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Dry,Long,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Moderate,Long,Low,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Cool,Short,Medium,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Athirappilly,Waterfall,Tropical,Medium,Medium,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Lonavala,Hill Station,Tropical,Short,Medium,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Munnar,Hill Station,Cool,Medium,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Cool,Medium,Low,Vegan,Camping,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Chittorgarh,Fort,Dry,Long,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bikaner,Desert,Cool,Long,Low,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Sundarbans,Forest,Tropical,Medium,Low,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Tropical,Long,Medium,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Tropical,Long,Low,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Dudhsagar,Waterfall,Moderate,Medium,Low,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Agra Fort,Fort,Dry,Long,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Pune,City,Cool,Short,Low,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Tropical,Medium,High,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Dry,Long,Low,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Cool,Short,Low,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Cool,Medium,High,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Raigad,Fort,Tropical,Medium,Low,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Desert,Dry,Medium,Low,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Bhimlat,Waterfall,Tropical,Long,High,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Sinhagad,Fort,Tropical,Medium,High,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Dry,Short,Low,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Dry,Long,High,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Tropical,Short,Low,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Puri,Beach,Tropical,Medium,Medium,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Moderate,Long,Low,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Dry,Long,High,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Athirappilly,Waterfall,Moderate,Medium,Low,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Tropical,Medium,Medium,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Tropical,Long,Low,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Chittorgarh,Fort,Cool,Short,High,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Cool,Short,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Tropical,Short,Medium,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Nainital,Hill Station,Moderate,Medium,Medium,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Golconda,Fort,Cool,Medium,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Barmer,Desert,Tropical,Short,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Cool,Long,High,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Chennai,City,Cool,Short,Medium,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Osian,Desert,Moderate,Short,Low,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Munnar,Hill Station,Tropical,Medium,Medium,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Agra Fort,Fort,Tropical,Long,High,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Tropical,Medium,High,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Moderate,Short,Low,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Gokarna,Beach,Cool,Short,Medium,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Agra Fort,Fort,Tropical,Long,High,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Cool,Medium,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Sinhagad,Fort,Cool,Long,Medium,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Dry,Medium,High,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Cool,Medium,Low,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Cool,Medium,Low,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bikaner,Desert,Tropical,Long,Low,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kovalam,Beach,Tropical,Short,High,Vegan,Trekking,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Jaisalmer,Desert,Tropical,Short,High,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Dry,Short,Medium,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Cool,Long,High,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Dry,Long,Low,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Hyderabad,City,Cool,Short,High,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Chennai,City,Cool,Long,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Alibaug,Beach,Moderate,Short,High,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Tropical,Long,High,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Ahmedabad,City,Cool,Long,Medium,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Moderate,Medium,Low,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Cool,Medium,Low,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Gwalior,Fort,Cool,Short,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Hebbe,Waterfall,Tropical,Medium,Low,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Alibaug,Beach,Tropical,Long,Medium,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Varkala,Beach,Cool,Short,Medium,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Cool,Short,Medium,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Sundarbans,Forest,Tropical,Long,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Dry,Medium,Low,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Cool,Long,Low,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Alibaug,Beach,Dry,Short,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Mandawa,Desert,Tropical,Medium,Low,Vegan,Sightseeing,Oct-Mar,"Mandawa Fort, Havelis",Dal Baati Churma
+Pushkar,Desert,Cool,Medium,High,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Cool,Short,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Moderate,Medium,Low,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Moderate,Short,Low,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Dry,Short,Medium,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Puri,Beach,Dry,Long,Low,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Bengaluru,City,Dry,Short,High,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Dry,Short,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Alibaug,Beach,Dry,Short,Medium,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Darjeeling,Hill Station,Tropical,Long,Low,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Pench,Forest,Tropical,Short,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Cool,Medium,High,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Moderate,Medium,Low,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kovalam,Beach,Cool,Short,Medium,Veg,Photography,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Puri,Beach,Dry,Short,High,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Alibaug,Beach,Dry,Short,Low,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Munnar,Hill Station,Cool,Long,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Darjeeling,Hill Station,Moderate,Medium,Low,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Mandawa,Desert,Dry,Medium,Medium,Veg,Trekking,Oct-Mar,"Mandawa Fort, Havelis",Dal Baati Churma
+Athirappilly,Waterfall,Cool,Short,Medium,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Dry,Long,High,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Darjeeling,Hill Station,Dry,Long,Medium,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Mandawa,Desert,Tropical,Long,Low,Vegan,Sightseeing,Oct-Mar,"Mandawa Fort, Havelis",Dal Baati Churma
+Sinhagad,Fort,Moderate,Medium,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Dry,Long,Medium,Jain,Adventure Sports,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Rann of Kutch,Desert,Moderate,Medium,Low,Jain,Wildlife Safari,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Munnar,Hill Station,Dry,Medium,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Cool,Short,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Puri,Beach,Cool,Medium,Low,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Dudhsagar,Waterfall,Cool,Long,High,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Tropical,Long,Low,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Cool,Medium,High,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Tropical,Long,Low,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Mount Abu,Hill Station,Moderate,Medium,High,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Darjeeling,Hill Station,Cool,Medium,High,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Dry,Long,Low,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Golconda,Fort,Dry,Medium,Low,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Dry,Long,High,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Delhi,City,Tropical,Medium,Low,Non-Veg,Trekking,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Sundarbans,Forest,Dry,Short,Medium,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Bengaluru,City,Moderate,Medium,High,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Moderate,Long,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Cool,Medium,Medium,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Raigad,Fort,Dry,Short,Low,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Athirappilly,Waterfall,Dry,Short,Low,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Dry,Medium,Medium,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Desert,Dry,Long,High,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jim Corbett,Forest,Dry,Short,Low,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Delhi,City,Moderate,Short,Low,Jain,Wildlife Safari,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Pushkar,Desert,Tropical,Short,High,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Tropical,Medium,Medium,Non-Veg,Sightseeing,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Hebbe,Waterfall,Cool,Long,High,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Sundarbans,Forest,Cool,Short,Low,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Tropical,Short,High,Non-Veg,Adventure Sports,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Chennai,City,Moderate,Medium,High,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Delhi,City,Dry,Short,Low,Non-Veg,Wildlife Safari,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Khimsar,Desert,Dry,Short,High,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Nainital,Hill Station,Cool,Short,High,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Chennai,City,Dry,Long,Low,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Periyar,Forest,Moderate,Short,Medium,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Mumbai,City,Dry,Short,High,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Dry,Medium,Medium,Vegan,Trekking,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Nainital,Hill Station,Moderate,Medium,Medium,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Dry,Short,High,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Moderate,Medium,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Ahmedabad,City,Cool,Long,Medium,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Tropical,Long,High,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Cool,Short,Low,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Cool,Long,Medium,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Nainital,Hill Station,Tropical,Medium,Low,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Dry,Medium,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Dudhsagar,Waterfall,Cool,Short,Low,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Osian,Desert,Tropical,Medium,High,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Goa,Beach,Moderate,Short,High,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Cool,Long,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Lonavala,Hill Station,Cool,Short,High,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Periyar,Forest,Moderate,Long,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Moderate,Long,Medium,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Periyar,Forest,Cool,Long,Low,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Jog Falls,Waterfall,Moderate,Medium,Medium,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Kovalam,Beach,Cool,Short,High,Non-Veg,Sightseeing,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Jim Corbett,Forest,Moderate,Medium,High,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Cool,Medium,Low,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Osian,Desert,Moderate,Short,Medium,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Hyderabad,City,Tropical,Medium,High,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Cool,Long,High,Non-Veg,Wildlife Safari,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Nainital,Hill Station,Tropical,Short,Low,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Dudhsagar,Waterfall,Moderate,Medium,Medium,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Chittorgarh,Fort,Moderate,Medium,High,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Dry,Short,Medium,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Bikaner,Desert,Moderate,Long,Low,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Chennai,City,Moderate,Long,Low,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Tropical,Long,Low,Jain,Adventure Sports,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Sundarbans,Forest,Dry,Long,Low,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Tropical,Medium,High,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Gir,Forest,Dry,Medium,Low,Veg,Trekking,Nov-Feb,"Gir National Park, Devalia Safari Park",Kathiyawadi Thali
+Mount Abu,Hill Station,Dry,Medium,High,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Jog Falls,Waterfall,Tropical,Medium,High,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Munnar,Hill Station,Tropical,Short,Low,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Cool,Short,Low,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Sundarbans,Forest,Cool,Long,Medium,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Hebbe,Waterfall,Moderate,Short,Low,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Moderate,Medium,High,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Dry,Short,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Dry,Short,Low,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Moderate,Long,Medium,Jain,Trekking,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Hyderabad,City,Cool,Medium,Medium,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Bhimlat,Waterfall,Cool,Long,High,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Raigad,Fort,Cool,Medium,High,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Khimsar,Desert,Dry,Long,Low,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Cool,Short,Low,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Desert,Tropical,Long,High,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Dry,Medium,Low,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Cool,Long,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Gwalior,Fort,Dry,Long,Medium,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Kovalam,Beach,Moderate,Long,High,Vegan,Camping,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Mumbai,City,Tropical,Long,Medium,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Radhanagar,Beach,Tropical,Long,Medium,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Moderate,Medium,High,Jain,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Cool,Short,Low,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Bengaluru,City,Cool,Medium,Medium,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Cool,Medium,Low,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Dry,Short,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Cool,Long,High,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Dry,Short,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Tropical,Medium,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Pench,Forest,Tropical,Short,High,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Moderate,Long,Low,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Delhi,City,Cool,Medium,Low,Non-Veg,Adventure Sports,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Munnar,Hill Station,Tropical,Short,Low,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Chittorgarh,Fort,Cool,Long,Medium,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Tropical,Long,High,Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Desert,Dry,Short,Medium,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Jog Falls,Waterfall,Cool,Short,High,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Chittorgarh,Fort,Tropical,Short,High,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Hebbe,Waterfall,Tropical,Long,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Dry,Medium,Medium,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Ahmedabad,City,Tropical,Medium,High,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Cool,Medium,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Nainital,Hill Station,Moderate,Long,Medium,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Munnar,Hill Station,Tropical,Long,High,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Sinhagad,Fort,Moderate,Medium,Medium,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Chennai,City,Moderate,Long,Low,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Dry,Long,High,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Cool,Long,Low,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Agra Fort,Fort,Tropical,Medium,Medium,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Gokarna,Beach,Moderate,Short,Medium,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kovalam,Beach,Dry,Medium,High,Non-Veg,Adventure Sports,Nov-Feb,"Lighthouse Beach, Hawah Beach",Kerala Sadya
+Golconda,Fort,Tropical,Short,High,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Darjeeling,Hill Station,Tropical,Medium,Low,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Tropical,Medium,High,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Cool,Short,High,Vegan,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Moderate,Short,High,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Agra Fort,Fort,Moderate,Medium,Medium,Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kolkata,City,Moderate,Medium,Medium,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Kanha,Forest,Dry,Medium,Medium,Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Moderate,Long,Medium,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Jog Falls,Waterfall,Tropical,Long,Low,Non-Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Hyderabad,City,Dry,Long,Medium,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Gokarna,Beach,Dry,Long,Low,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Bengaluru,City,Cool,Short,High,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Dry,Long,High,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Tropical,Long,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Nainital,Hill Station,Dry,Long,High,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Nohkalikai,Waterfall,Moderate,Medium,Medium,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Desert,Moderate,Long,Low,Non-Veg,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Cool,Long,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Pench,Forest,Moderate,Medium,Low,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Ooty,Hill Station,Dry,Short,Medium,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Gokarna,Beach,Cool,Short,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Shimla,Hill Station,Moderate,Short,Medium,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Chittorgarh,Fort,Moderate,Medium,High,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Hyderabad,City,Cool,Medium,Low,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Cool,Short,High,Veg,Trekking,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Barmer,Desert,Moderate,Long,Medium,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Mumbai,City,Tropical,Long,High,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Tropical,Short,Low,Vegan,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Dry,Long,Medium,Jain,Trekking,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Nohkalikai,Waterfall,Cool,Short,Low,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Gwalior,Fort,Tropical,Short,Low,Vegan,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Hogenakkal,Waterfall,Tropical,Short,High,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Ahmedabad,City,Moderate,Medium,High,Jain,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Manali,Hill Station,Tropical,Medium,High,Jain,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Golconda,Fort,Cool,Short,Low,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Raigad,Fort,Tropical,Medium,Low,Jain,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Barmer,Desert,Dry,Medium,Medium,Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Golconda,Fort,Cool,Medium,Low,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Bandipur,Forest,Cool,Short,High,Jain,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Hyderabad,City,Moderate,Short,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Bhimlat,Waterfall,Cool,Long,High,Non-Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Mumbai,City,Dry,Short,Medium,Vegan,Photography,Oct-Mar,Main Attractions,Regional Specialties
+Bhimlat,Waterfall,Tropical,Short,Medium,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Gwalior,Fort,Cool,Short,Low,Vegan,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Lonavala,Hill Station,Cool,Medium,Medium,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Tropical,Medium,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Amber,Fort,Cool,Long,High,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Jog Falls,Waterfall,Moderate,Medium,Low,Veg,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Moderate,Long,Medium,Jain,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Marina,Beach,Tropical,Long,Medium,Jain,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Jaisalmer,Fort,Moderate,Short,Low,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Pushkar,Desert,Dry,Medium,Low,Non-Veg,Wildlife Safari,Oct-Mar,Main Attractions,Regional Specialties
+Gwalior,Fort,Cool,Medium,High,Vegan,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Kaziranga,Forest,Tropical,Medium,Medium,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Rann of Kutch,Desert,Cool,Medium,High,Veg,Wildlife Safari,Nov-Feb,"White Desert, Kalo Dungar",Kutchi Dabeli
+Chennai,City,Tropical,Short,Medium,Non-Veg,Camping,Oct-Mar,Main Attractions,Regional Specialties
+Delhi,City,Cool,Long,High,Non-Veg,Relaxing,Oct-Mar,"India Gate, Qutub Minar, Red Fort",Chole Bhature
+Bengaluru,City,Tropical,Short,Medium,Non-Veg,Sightseeing,Oct-Mar,Main Attractions,Regional Specialties
+Golconda,Fort,Cool,Long,Low,Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Osian,Desert,Tropical,Long,High,Non-Veg,Relaxing,Oct-Mar,Main Attractions,Regional Specialties
+Kune,Waterfall,Tropical,Short,Low,Veg,Trekking,Oct-Mar,Main Attractions,Regional Specialties
+Varkala,Beach,Moderate,Long,Low,Vegan,Adventure Sports,Oct-Mar,Main Attractions,Regional Specialties

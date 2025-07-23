@@ -1,0 +1,295 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Ai-Travel Suggester - Profile</title>
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon" />
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Inter&display=swap" rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet" />
+
+  <style>
+    /* ===== Header improvements ===== */
+    #header {
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 12px 0;
+      z-index: 1030;
+    }
+
+    #header .logo h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #007bff;
+      margin: 0;
+    }
+
+    #navbar ul {
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      align-items: center;
+    }
+
+    #navbar ul li a {
+      font-weight: 600;
+      font-size: 16px;
+      color: #212529;
+      padding: 8px 12px;
+      transition: color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    #navbar ul li a:hover,
+    #navbar ul li a.active {
+      color: #007bff;
+    }
+
+    /* Dropdown styling */
+    #navbar ul li.dropdown > a {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+
+    #navbar ul li.dropdown ul {
+      background: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+      border-radius: 6px;
+      min-width: 180px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      z-index: 1100;
+    }
+
+    #navbar ul li.dropdown:hover > ul {
+      display: block;
+    }
+
+    #navbar ul li.dropdown ul li a {
+      padding: 8px 20px;
+      color: #212529;
+      font-weight: 500;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+
+    #navbar ul li.dropdown ul li a:hover {
+      background: #f0f8ff;
+      color: #007bff;
+    }
+
+    .dropdown-indicator {
+      font-size: 12px;
+      color: #007bff;
+    }
+
+    /* Dropdown arrow rotate on hover */
+    #navbar ul li.dropdown:hover > a .bi-chevron-down {
+      transform: rotate(180deg);
+      transition: transform 0.3s ease;
+    }
+
+    /* Mobile nav toggles */
+    .mobile-nav-toggle {
+      font-size: 28px;
+      color: #007bff;
+      cursor: pointer;
+    }
+
+    /* ===== Profile page styling ===== */
+    main {
+      padding: 120px 20px 40px;
+      max-width: 700px;
+      margin: auto;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    #profile {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 30px 25px;
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+    }
+
+    #profile h2 {
+      font-weight: 700;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #212529;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 8px;
+      max-width: fit-content;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 25px;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    }
+
+    .profile-icon {
+      font-size: 100px;
+      margin-right: 25px;
+      color: #007bff;
+    }
+
+    .user-info h3 {
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 4px;
+      color: #222;
+    }
+
+    .user-info p {
+      font-size: 16px;
+      color: #555;
+      letter-spacing: 0.03em;
+      margin: 0;
+    }
+
+    .list-group-item {
+      font-size: 17px;
+      border: none;
+      padding-left: 0;
+      padding-right: 0;
+      color: #444;
+    }
+
+    .list-group-item strong {
+      color: #007bff;
+      width: 110px;
+      display: inline-block;
+    }
+
+    .list-group {
+      background: transparent;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between position-relative">
+      <a href="/" class="logo d-flex align-items-center">
+        <h1>ATS</h1>
+      </a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li class="dropdown">
+            <a><span>Travel Inspiration</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="/featured-destinations">Featured Destinations</a></li>
+              <li class="dropdown">
+                <a><span>Photo Stories</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="/photo-story-1">Mountain Escapes</a></li>
+                  <li><a href="/photo-story-2">Beach Vibes</a></li>
+                  <li><a href="/photo-story-3">Urban Adventures</a></li>
+                </ul>
+              </li>
+              <li><a href="/video-gallery">Video Gallery</a></li>
+              <li><a href="/travel-tips">Travel Tips</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact">Contact</a></li>
+
+          {% if user.is_authenticated %}
+          <li class="dropdown">
+            <a href="#" class="d-flex align-items-center" style="gap: 6px;">
+              <div style="width: 36px; height: 36px; border-radius: 50%; background-color: #007bff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px;">
+                {{ user.username|first|upper }}
+              </div>
+              <span>{{ user.username }}</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i>
+            </a>
+            <ul>
+              <li><a href="{% url 'profile' %}">Profile</a></li>
+              <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+          </li>
+          {% else %}
+          <li><a href="/login">Login</a></li>
+          <li>
+            <a href="/register" style="background-color: blue; color: white; padding: 8px 15px; border-radius: 5px;">
+              Register
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Main Content ======= -->
+  <main>
+    <section id="profile" class="shadow-sm rounded">
+      <h2>User Profile</h2>
+      <div class="d-flex align-items-center my-4">
+        {% if user.profile.picture %}
+        <img src="{{ user.profile.picture.url }}" alt="Profile Picture" class="profile-img" />
+        {% else %}
+        <i class="bi bi-person-circle profile-icon"></i>
+        {% endif %}
+        <div class="user-info">
+          <h3>{{ user.get_full_name|default:user.username }}</h3>
+          <p class="text-muted">@{{ user.username }}</p>
+        </div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><strong>Email:</strong> {{ user.email }}</li>
+        <li class="list-group-item"><strong>Date Joined:</strong> {{ user.date_joined|date:"F j, Y" }}</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+
+</html>

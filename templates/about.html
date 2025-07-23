@@ -1,0 +1,527 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>Ai-Travel Suggester - Home</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon" />
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet" />
+
+  <style>
+    /* Make profile image perfectly round and fit */
+    .profile-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <a href="/" class="logo d-flex align-items-center">
+      <h1>ATS</h1>
+    </a>
+
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+
+        <li class="dropdown">
+          <a href="#"><span>Travel Inspiration</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li><a href="/featured-destinations"><i class="bi bi-map"></i> Featured Destinations</a></li>
+            <li class="dropdown">
+              <a href="#"><span><i class="bi bi-camera"></i> Photo Stories</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="/photo-story-1">Mountain Escapes</a></li>
+                <li><a href="/photo-story-2">Beach Vibes</a></li>
+                <li><a href="/photo-story-3">Urban Adventures</a></li>
+              </ul>
+            </li>
+            <li><a href="/video-gallery"><i class="bi bi-play-circle"></i> Video Gallery</a></li>
+            <li><a href="/travel-tips"><i class="bi bi-lightbulb"></i> Travel Tips</a></li>
+          </ul>
+        </li>
+
+        <li><a href="/contact">Contact</a></li>
+
+
+        <!-- Show icon + username if logged in -->
+        {% if user.is_authenticated %}
+        <li class="dropdown">
+          <a href="#" class="d-flex align-items-center" style="gap: 6px;">
+            <div style="
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              background-color: #007bff;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-weight: bold;
+              font-size: 16px;
+            ">
+              {{ user.username|first|upper }}
+            </div>
+            <span>{{ user.username }}</span>
+            <i class="bi bi-chevron-down dropdown-indicator"></i>
+          </a>
+          <ul>
+            <li><a href="{% url 'profile' %}">Profile</a></li>
+            <li><a href="{% url 'logout' %}">Logout</a></li>
+          </ul>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+  </div>
+</header>
+  <!-- End Header -->
+
+
+
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('{% static 'assets/img/About.jpg' %}');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>About</h2>
+              <p>At ATS, we use AI to provide personalized travel suggestions based on your preferences, making your travel planning easy and enjoyable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>About</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
+            <img src={% static 'assets/img/about.jpg' %} class="img-fluid" alt="">
+            <a href="https://youtu.be/35npVaFGHMY?si=ddmm8FtZz1x9fE8a" class="glightbox play-btn"></a>
+          </div>
+          <div class="col-lg-6 content order-last order-lg-first">
+            <h3>About Us</h3>
+            <p>
+              We are passionate about helping you discover your next travel destination with ease. Our AI-driven platform suggests the best locations based on your preferences, such as climate, price, and distance. We aim to make travel planning effortless and exciting for you.
+            </p>
+            <ul>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                  <h5>AI-Powered Recommendations</h5>
+                  <p>Our system uses advanced AI algorithms to suggest destinations that best match your travel needs.</p>
+                </div>
+              </li>
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <div>
+                  <h5>Customized Travel Experience</h5>
+                  <p>Input your preferences and get personalized travel suggestions that are just right for you.</p>
+                </div>
+              </li>
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h5>Time-Saving Solutions</h5>
+                  <p>Save time with quick, efficient, and accurate travel recommendations tailored to your interests.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter pt-0">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Locations Suggested</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="12000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Users Helped</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>AI Models Trained</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Partners</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team pt-0">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <span>Our Team</span>
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="member">
+              <img src={% static 'assets/img/team/team-1.jpg' %} class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Walter White</h4>
+                <span>Web Development</span>
+                <p>Magni qui quod omnis unde et eos fuga et exercitationem.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="member">
+              <img src={% static 'assets/img/team/team-2.jpg' %} class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Sarah Jhinson</h4>
+                <span>Marketing</span>
+                <p>Repellat fugiat adipisci nemo illum nesciunt voluptas.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="member">
+              <img src={% static 'assets/img/team/team-3.jpg' %} class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>William Anderson</h4>
+                <span>Content</span>
+                <p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="slides-1 swiper" data-aos="fade-up">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src={% static 'assets/img/testimonials/testimonials-1.jpg' %} class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src={% static 'assets/img/testimonials/testimonials-2.jpg' %} class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum. Feugiat adipiscing elit. Varius enim, ac gravida.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    
+    <!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <span>Frequently Asked Questions</span>
+      <h2>Frequently Asked Questions</h2>
+
+    </div>
+
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-10">
+
+        <div class="accordion accordion-flush" id="faqlist">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                <i class="bi bi-question-circle question-icon"></i>
+                1. What is an AI travel planner?
+              </button>
+            </h3>
+            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                An AI travel planner uses artificial intelligence algorithms to analyze user preferences and provide personalized travel recommendations, itineraries, and deals.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                <i class="bi bi-question-circle question-icon"></i>
+                2. How does the AI recommend travel destinations?
+              </button>
+            </h3>
+            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                The AI analyzes user input such as interests, budget, and travel dates, along with real-time data and historical trends, to suggest suitable travel destinations based on various factors like weather, popularity, and user ratings.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                <i class="bi bi-question-circle question-icon"></i>
+                3. Can I customize my travel itinerary?
+              </button>
+            </h3>
+            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                Yes, you can customize your travel itinerary by selecting specific destinations, activities, accommodations, and preferences. The AI adapts to your choices and updates the recommendations accordingly.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                <i class="bi bi-question-circle question-icon"></i>
+                4. Is the platform secure and trustworthy?
+              </button>
+            </h3>
+            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                <i class="bi bi-question-circle question-icon"></i>
+                Yes, we prioritize user data security and implement robust measures to protect your information. Our platform complies with industry standards and regulations to ensure a secure and trustworthy experience.
+            </div>
+          </div><!-- # Faq item-->
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                <i class="bi bi-question-circle question-icon"></i>
+                5. How accurate are the AI-generated recommendations?
+              </button>
+            </h3>
+            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+              <div class="accordion-body">
+                The AI-generated recommendations are highly accurate and constantly refined based on user feedback and data analysis. We strive to provide the most relevant and personalized travel suggestions for your trips.
+              </div>
+            </div>
+          </div><!-- # Faq item-->
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Frequently Asked Questions Section -->
+
+
+ 
+
+  
+
+</main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>ATS</span>
+          </a>
+          <p>We are dedicated to providing personalized and unforgettable travel experiences through our innovative AI travel planner platform. Our team of travel experts and technology enthusiasts works tirelessly to ensure that your journey is seamless and memorable.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Suggest Travel points</a></li>
+            <li><a href="#">manages Travel Trip</a></li>
+            <li><a href="#">Provide Best Travel Plans</a></li>
+            <li><a href="#">Provide Best Travel Services</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+           Akurdi , Pune <br><br>
+            <strong>Phone:</strong> +1 9889 55488 55<br>
+            <strong>Email:</strong> ats@gmail.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ATS</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">ATS</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src={% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
+<script src={% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}></script>
+<script src={% static 'assets/vendor/glightbox/js/glightbox.min.js' %}></script>
+<script src={% static 'assets/vendor/swiper/swiper-bundle.min.js' %}></script>
+<script src={% static 'assets/vendor/aos/aos.js' %}></script>
+<script src={% static 'assets/vendor/php-email-form/validate.js' %}></script>
+
+<!-- Template Main JS File -->
+<script src={% static 'assets/js/main.js' %}></script>
+
+</body>
+</html>

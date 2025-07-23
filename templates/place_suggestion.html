@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Suggestion</title>
+</head>
+<body>
+    <h1>Get Destination Suggestion</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label>Destination Type:</label><input type="text" name="destination_type" required><br>
+        <label>Preferred Climate:</label><input type="text" name="preferred_climate" required><br>
+        <label>Distance:</label><input type="text" name="distance" required><br>
+        <label>Budget:</label><input type="text" name="budget" required><br>
+        <label>Food Preference:</label><input type="text" name="food_preference" required><br>
+        <label>Activity Preference:</label><input type="text" name="activity_preference" required><br>
+        <button type="submit">Suggest</button>
+    </form>
+
+    {% if result %}
+    <h2>Suggestion:</h2>
+    <ul>
+        <li><strong>Destination:</strong> {{ result.destination }}</li>
+        <li><strong>Best Months:</strong> {{ result.best_months }}</li>
+        <li><strong>Traveler Type:</strong> {{ result.traveler_type }}</li>
+        <li><strong>Best Spots:</strong> {{ result.best_spots }}</li>
+        <li><strong>Local Food Specialty:</strong> {{ result.local_food_specialty }}</li>
+    </ul>
+    {% endif %}
+
+    {% if error %}
+    <p style="color:red">{{ error }}</p>
+    {% endif %}
+</body>
+</html>

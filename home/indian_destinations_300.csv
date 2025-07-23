@@ -1,0 +1,301 @@
+destination,destination_type,preferred_climate,distance,budget,food_preference,activity_preference
+Gir,Forest,Tropical,Long,Low,Veg,Trekking
+Mandawa,Desert,Cool,Short,Low,Vegan,Camping
+Rann of Kutch,Desert,Moderate,Medium,High,Vegan,Photography
+Delhi,City,Dry,Medium,Medium,Vegan,Relaxing
+Kovalam,Beach,Tropical,Medium,High,Veg,Trekking
+Agra Fort,Fort,Cool,Long,High,Non-Veg,Adventure Sports
+Gokarna,Beach,Cool,Medium,Medium,Veg,Relaxing
+Jaisalmer,Fort,Dry,Short,Medium,Veg,Wildlife Safari
+Khimsar,Desert,Cool,Short,High,Vegan,Wildlife Safari
+Bikaner,Desert,Cool,Short,High,Vegan,Trekking
+Periyar,Forest,Moderate,Medium,Low,Vegan,Trekking
+Lonavala,Hill Station,Tropical,Medium,Low,Jain,Trekking
+Radhanagar,Beach,Moderate,Long,High,Veg,Camping
+Dudhsagar,Waterfall,Cool,Short,Low,Jain,Photography
+Kune,Waterfall,Dry,Long,Medium,Veg,Sightseeing
+Nohkalikai,Waterfall,Moderate,Long,Low,Jain,Photography
+Hogenakkal,Waterfall,Cool,Short,Medium,Jain,Trekking
+Athirappilly,Waterfall,Tropical,Medium,Medium,Vegan,Sightseeing
+Lonavala,Hill Station,Tropical,Short,Medium,Non-Veg,Adventure Sports
+Munnar,Hill Station,Cool,Medium,Medium,Veg,Sightseeing
+Gir,Forest,Cool,Medium,Low,Vegan,Camping
+Chittorgarh,Fort,Dry,Long,High,Veg,Camping
+Bikaner,Desert,Cool,Long,Low,Jain,Wildlife Safari
+Sundarbans,Forest,Tropical,Medium,Low,Jain,Photography
+Hogenakkal,Waterfall,Tropical,Long,Medium,Non-Veg,Wildlife Safari
+Radhanagar,Beach,Tropical,Long,Low,Veg,Sightseeing
+Dudhsagar,Waterfall,Moderate,Medium,Low,Veg,Photography
+Agra Fort,Fort,Dry,Long,High,Veg,Camping
+Pune,City,Cool,Short,Low,Non-Veg,Trekking
+Kanha,Forest,Tropical,Medium,High,Veg,Sightseeing
+Mount Abu,Hill Station,Dry,Long,Low,Non-Veg,Relaxing
+Manali,Hill Station,Cool,Short,Low,Vegan,Camping
+Hogenakkal,Waterfall,Cool,Medium,High,Non-Veg,Wildlife Safari
+Raigad,Fort,Tropical,Medium,Low,Jain,Camping
+Jaisalmer,Desert,Dry,Medium,Low,Jain,Adventure Sports
+Bhimlat,Waterfall,Tropical,Long,High,Jain,Photography
+Sinhagad,Fort,Tropical,Medium,High,Non-Veg,Photography
+Khimsar,Desert,Dry,Short,Low,Vegan,Sightseeing
+Goa,Beach,Dry,Long,High,Jain,Sightseeing
+Kanha,Forest,Tropical,Short,Low,Vegan,Photography
+Puri,Beach,Tropical,Medium,Medium,Non-Veg,Sightseeing
+Mount Abu,Hill Station,Moderate,Long,Low,Jain,Adventure Sports
+Radhanagar,Beach,Dry,Long,High,Jain,Adventure Sports
+Athirappilly,Waterfall,Moderate,Medium,Low,Veg,Adventure Sports
+Amber,Fort,Tropical,Medium,Medium,Non-Veg,Wildlife Safari
+Shimla,Hill Station,Tropical,Long,Low,Veg,Photography
+Chittorgarh,Fort,Cool,Short,High,Non-Veg,Relaxing
+Shimla,Hill Station,Cool,Short,Medium,Veg,Sightseeing
+Kaziranga,Forest,Tropical,Short,Medium,Vegan,Trekking
+Nainital,Hill Station,Moderate,Medium,Medium,Jain,Camping
+Golconda,Fort,Cool,Medium,Medium,Veg,Trekking
+Barmer,Desert,Tropical,Short,Low,Non-Veg,Photography
+Radhanagar,Beach,Cool,Long,High,Jain,Adventure Sports
+Chennai,City,Cool,Short,Medium,Jain,Wildlife Safari
+Osian,Desert,Moderate,Short,Low,Veg,Camping
+Munnar,Hill Station,Tropical,Medium,Medium,Non-Veg,Adventure Sports
+Agra Fort,Fort,Tropical,Long,High,Non-Veg,Camping
+Shimla,Hill Station,Tropical,Medium,High,Vegan,Photography
+Marina,Beach,Moderate,Short,Low,Non-Veg,Relaxing
+Gokarna,Beach,Cool,Short,Medium,Vegan,Trekking
+Agra Fort,Fort,Tropical,Long,High,Vegan,Camping
+Bandipur,Forest,Cool,Medium,Low,Non-Veg,Photography
+Sinhagad,Fort,Cool,Long,Medium,Jain,Adventure Sports
+Goa,Beach,Dry,Medium,High,Non-Veg,Trekking
+Kune,Waterfall,Cool,Medium,Low,Non-Veg,Camping
+Manali,Hill Station,Cool,Medium,Low,Non-Veg,Camping
+Bikaner,Desert,Tropical,Long,Low,Veg,Photography
+Kovalam,Beach,Tropical,Short,High,Vegan,Trekking
+Jaisalmer,Desert,Tropical,Short,High,Non-Veg,Adventure Sports
+Khimsar,Desert,Dry,Short,Medium,Jain,Wildlife Safari
+Kolkata,City,Cool,Long,High,Jain,Trekking
+Mount Abu,Hill Station,Dry,Long,Low,Veg,Trekking
+Hyderabad,City,Cool,Short,High,Vegan,Wildlife Safari
+Chennai,City,Cool,Long,Low,Non-Veg,Photography
+Alibaug,Beach,Moderate,Short,High,Vegan,Photography
+Mount Abu,Hill Station,Tropical,Long,High,Veg,Relaxing
+Ahmedabad,City,Cool,Long,Medium,Jain,Wildlife Safari
+Kaziranga,Forest,Moderate,Medium,Low,Jain,Sightseeing
+Goa,Beach,Cool,Medium,Low,Veg,Sightseeing
+Gwalior,Fort,Cool,Short,Low,Non-Veg,Photography
+Hebbe,Waterfall,Tropical,Medium,Low,Veg,Photography
+Alibaug,Beach,Tropical,Long,Medium,Vegan,Relaxing
+Varkala,Beach,Cool,Short,Medium,Non-Veg,Wildlife Safari
+Amber,Fort,Cool,Short,Medium,Veg,Photography
+Sundarbans,Forest,Tropical,Long,Low,Non-Veg,Photography
+Kune,Waterfall,Dry,Medium,Low,Jain,Adventure Sports
+Mount Abu,Hill Station,Cool,Long,Low,Non-Veg,Relaxing
+Alibaug,Beach,Dry,Short,Low,Vegan,Adventure Sports
+Mandawa,Desert,Tropical,Medium,Low,Vegan,Sightseeing
+Pushkar,Desert,Cool,Medium,High,Jain,Photography
+Amber,Fort,Cool,Short,Medium,Veg,Sightseeing
+Khimsar,Desert,Moderate,Medium,Low,Vegan,Trekking
+Shimla,Hill Station,Moderate,Short,Low,Non-Veg,Trekking
+Kolkata,City,Dry,Short,Medium,Veg,Relaxing
+Puri,Beach,Dry,Long,Low,Veg,Adventure Sports
+Bengaluru,City,Dry,Short,High,Non-Veg,Photography
+Kaziranga,Forest,Dry,Short,Medium,Non-Veg,Camping
+Alibaug,Beach,Dry,Short,Medium,Vegan,Adventure Sports
+Darjeeling,Hill Station,Tropical,Long,Low,Jain,Sightseeing
+Pench,Forest,Tropical,Short,Medium,Vegan,Photography
+Jaisalmer,Fort,Cool,Medium,High,Veg,Relaxing
+Kaziranga,Forest,Moderate,Medium,Low,Veg,Sightseeing
+Kovalam,Beach,Cool,Short,Medium,Veg,Photography
+Puri,Beach,Dry,Short,High,Veg,Adventure Sports
+Alibaug,Beach,Dry,Short,Low,Jain,Trekking
+Munnar,Hill Station,Cool,Long,Medium,Veg,Trekking
+Darjeeling,Hill Station,Moderate,Medium,Low,Veg,Adventure Sports
+Mandawa,Desert,Dry,Medium,Medium,Veg,Trekking
+Athirappilly,Waterfall,Cool,Short,Medium,Veg,Camping
+Radhanagar,Beach,Dry,Long,High,Non-Veg,Sightseeing
+Darjeeling,Hill Station,Dry,Long,Medium,Veg,Photography
+Mandawa,Desert,Tropical,Long,Low,Vegan,Sightseeing
+Sinhagad,Fort,Moderate,Medium,Low,Non-Veg,Photography
+Gir,Forest,Dry,Long,Medium,Jain,Adventure Sports
+Rann of Kutch,Desert,Moderate,Medium,Low,Jain,Wildlife Safari
+Munnar,Hill Station,Dry,Medium,Medium,Veg,Trekking
+Jaisalmer,Fort,Cool,Short,Low,Non-Veg,Photography
+Puri,Beach,Cool,Medium,Low,Vegan,Sightseeing
+Dudhsagar,Waterfall,Cool,Long,High,Non-Veg,Photography
+Kanha,Forest,Tropical,Long,Low,Jain,Sightseeing
+Kolkata,City,Cool,Medium,High,Veg,Adventure Sports
+Amber,Fort,Tropical,Long,Low,Veg,Sightseeing
+Mount Abu,Hill Station,Moderate,Medium,High,Jain,Wildlife Safari
+Darjeeling,Hill Station,Cool,Medium,High,Vegan,Wildlife Safari
+Kune,Waterfall,Dry,Long,Low,Non-Veg,Trekking
+Golconda,Fort,Dry,Medium,Low,Veg,Wildlife Safari
+Goa,Beach,Dry,Long,High,Vegan,Relaxing
+Delhi,City,Tropical,Medium,Low,Non-Veg,Trekking
+Sundarbans,Forest,Dry,Short,Medium,Non-Veg,Relaxing
+Bengaluru,City,Moderate,Medium,High,Veg,Sightseeing
+Goa,Beach,Moderate,Long,Medium,Non-Veg,Camping
+Kaziranga,Forest,Cool,Medium,Medium,Veg,Photography
+Raigad,Fort,Dry,Short,Low,Veg,Relaxing
+Athirappilly,Waterfall,Dry,Short,Low,Veg,Wildlife Safari
+Bandipur,Forest,Dry,Medium,Medium,Vegan,Trekking
+Jaisalmer,Desert,Dry,Long,High,Jain,Photography
+Jim Corbett,Forest,Dry,Short,Low,Veg,Camping
+Delhi,City,Moderate,Short,Low,Jain,Wildlife Safari
+Pushkar,Desert,Tropical,Short,High,Jain,Camping
+Rann of Kutch,Desert,Tropical,Medium,Medium,Non-Veg,Sightseeing
+Hebbe,Waterfall,Cool,Long,High,Vegan,Sightseeing
+Sundarbans,Forest,Cool,Short,Low,Vegan,Relaxing
+Gir,Forest,Tropical,Short,High,Non-Veg,Adventure Sports
+Chennai,City,Moderate,Medium,High,Jain,Relaxing
+Delhi,City,Dry,Short,Low,Non-Veg,Wildlife Safari
+Khimsar,Desert,Dry,Short,High,Vegan,Photography
+Nainital,Hill Station,Cool,Short,High,Non-Veg,Photography
+Chennai,City,Dry,Long,Low,Vegan,Trekking
+Periyar,Forest,Moderate,Short,Medium,Vegan,Sightseeing
+Mumbai,City,Dry,Short,High,Non-Veg,Relaxing
+Gir,Forest,Dry,Medium,Medium,Vegan,Trekking
+Nainital,Hill Station,Moderate,Medium,Medium,Vegan,Camping
+Pushkar,Desert,Dry,Short,High,Jain,Relaxing
+Manali,Hill Station,Moderate,Medium,Medium,Vegan,Photography
+Ahmedabad,City,Cool,Long,Medium,Veg,Wildlife Safari
+Jaisalmer,Fort,Tropical,Long,High,Non-Veg,Sightseeing
+Nohkalikai,Waterfall,Cool,Short,Low,Jain,Adventure Sports
+Bandipur,Forest,Cool,Long,Medium,Non-Veg,Trekking
+Nainital,Hill Station,Tropical,Medium,Low,Veg,Relaxing
+Marina,Beach,Dry,Medium,Medium,Veg,Trekking
+Dudhsagar,Waterfall,Cool,Short,Low,Veg,Relaxing
+Osian,Desert,Tropical,Medium,High,Jain,Adventure Sports
+Goa,Beach,Moderate,Short,High,Veg,Photography
+Khimsar,Desert,Cool,Long,Medium,Vegan,Photography
+Lonavala,Hill Station,Cool,Short,High,Vegan,Photography
+Periyar,Forest,Moderate,Long,High,Veg,Camping
+Kolkata,City,Moderate,Long,Medium,Vegan,Sightseeing
+Periyar,Forest,Cool,Long,Low,Veg,Wildlife Safari
+Jog Falls,Waterfall,Moderate,Medium,Medium,Jain,Relaxing
+Kovalam,Beach,Cool,Short,High,Non-Veg,Sightseeing
+Jim Corbett,Forest,Moderate,Medium,High,Veg,Wildlife Safari
+Marina,Beach,Cool,Medium,Low,Jain,Adventure Sports
+Osian,Desert,Moderate,Short,Medium,Vegan,Adventure Sports
+Hyderabad,City,Tropical,Medium,High,Jain,Trekking
+Gir,Forest,Cool,Long,High,Non-Veg,Wildlife Safari
+Nainital,Hill Station,Tropical,Short,Low,Veg,Camping
+Dudhsagar,Waterfall,Moderate,Medium,Medium,Jain,Photography
+Chittorgarh,Fort,Moderate,Medium,High,Vegan,Photography
+Bandipur,Forest,Dry,Short,Medium,Veg,Adventure Sports
+Bikaner,Desert,Moderate,Long,Low,Vegan,Camping
+Chennai,City,Moderate,Long,Low,Non-Veg,Adventure Sports
+Rann of Kutch,Desert,Tropical,Long,Low,Jain,Adventure Sports
+Sundarbans,Forest,Dry,Long,Low,Non-Veg,Relaxing
+Radhanagar,Beach,Tropical,Medium,High,Jain,Adventure Sports
+Gir,Forest,Dry,Medium,Low,Veg,Trekking
+Mount Abu,Hill Station,Dry,Medium,High,Non-Veg,Relaxing
+Jog Falls,Waterfall,Tropical,Medium,High,Vegan,Trekking
+Munnar,Hill Station,Tropical,Short,Low,Jain,Trekking
+Amber,Fort,Cool,Short,Low,Jain,Photography
+Sundarbans,Forest,Cool,Long,Medium,Vegan,Wildlife Safari
+Hebbe,Waterfall,Moderate,Short,Low,Jain,Wildlife Safari
+Kune,Waterfall,Moderate,Medium,High,Veg,Photography
+Nohkalikai,Waterfall,Dry,Short,Medium,Non-Veg,Camping
+Kanha,Forest,Dry,Short,Low,Vegan,Wildlife Safari
+Rann of Kutch,Desert,Moderate,Long,Medium,Jain,Trekking
+Hyderabad,City,Cool,Medium,Medium,Jain,Photography
+Bhimlat,Waterfall,Cool,Long,High,Vegan,Camping
+Raigad,Fort,Cool,Medium,High,Vegan,Sightseeing
+Khimsar,Desert,Dry,Long,Low,Veg,Photography
+Nohkalikai,Waterfall,Cool,Short,Low,Vegan,Photography
+Jaisalmer,Desert,Tropical,Long,High,Vegan,Trekking
+Pushkar,Desert,Dry,Medium,Low,Jain,Wildlife Safari
+Kune,Waterfall,Cool,Long,Low,Vegan,Adventure Sports
+Gwalior,Fort,Dry,Long,Medium,Vegan,Trekking
+Kovalam,Beach,Moderate,Long,High,Vegan,Camping
+Mumbai,City,Tropical,Long,Medium,Non-Veg,Relaxing
+Radhanagar,Beach,Tropical,Long,Medium,Non-Veg,Photography
+Jaisalmer,Fort,Moderate,Medium,High,Jain,Adventure Sports
+Shimla,Hill Station,Cool,Short,Low,Non-Veg,Relaxing
+Bengaluru,City,Cool,Medium,Medium,Jain,Sightseeing
+Kune,Waterfall,Cool,Medium,Low,Vegan,Photography
+Hogenakkal,Waterfall,Dry,Short,Medium,Vegan,Photography
+Kune,Waterfall,Cool,Long,High,Veg,Photography
+Jaisalmer,Fort,Dry,Short,High,Veg,Camping
+Bandipur,Forest,Tropical,Medium,Medium,Non-Veg,Camping
+Pench,Forest,Tropical,Short,High,Veg,Photography
+Nohkalikai,Waterfall,Moderate,Long,Low,Vegan,Relaxing
+Delhi,City,Cool,Medium,Low,Non-Veg,Adventure Sports
+Munnar,Hill Station,Tropical,Short,Low,Non-Veg,Sightseeing
+Chittorgarh,Fort,Cool,Long,Medium,Vegan,Relaxing
+Kanha,Forest,Tropical,Long,High,Veg,Photography
+Jaisalmer,Desert,Dry,Short,Medium,Non-Veg,Sightseeing
+Jog Falls,Waterfall,Cool,Short,High,Veg,Adventure Sports
+Chittorgarh,Fort,Tropical,Short,High,Non-Veg,Camping
+Hebbe,Waterfall,Tropical,Long,Medium,Veg,Sightseeing
+Kolkata,City,Dry,Medium,Medium,Vegan,Wildlife Safari
+Ahmedabad,City,Tropical,Medium,High,Jain,Trekking
+Marina,Beach,Cool,Medium,Medium,Veg,Trekking
+Nainital,Hill Station,Moderate,Long,Medium,Veg,Relaxing
+Munnar,Hill Station,Tropical,Long,High,Jain,Camping
+Sinhagad,Fort,Moderate,Medium,Medium,Non-Veg,Sightseeing
+Chennai,City,Moderate,Long,Low,Non-Veg,Wildlife Safari
+Manali,Hill Station,Dry,Long,High,Vegan,Sightseeing
+Hogenakkal,Waterfall,Cool,Long,Low,Jain,Trekking
+Agra Fort,Fort,Tropical,Medium,Medium,Veg,Trekking
+Gokarna,Beach,Moderate,Short,Medium,Non-Veg,Photography
+Kovalam,Beach,Dry,Medium,High,Non-Veg,Adventure Sports
+Golconda,Fort,Tropical,Short,High,Jain,Wildlife Safari
+Darjeeling,Hill Station,Tropical,Medium,Low,Non-Veg,Adventure Sports
+Pushkar,Desert,Tropical,Medium,High,Non-Veg,Adventure Sports
+Jaisalmer,Fort,Cool,Short,High,Vegan,Camping
+Bandipur,Forest,Moderate,Short,High,Non-Veg,Wildlife Safari
+Agra Fort,Fort,Moderate,Medium,Medium,Veg,Sightseeing
+Kolkata,City,Moderate,Medium,Medium,Jain,Relaxing
+Kanha,Forest,Dry,Medium,Medium,Veg,Wildlife Safari
+Marina,Beach,Moderate,Long,Medium,Jain,Camping
+Jog Falls,Waterfall,Tropical,Long,Low,Non-Veg,Trekking
+Hyderabad,City,Dry,Long,Medium,Veg,Adventure Sports
+Gokarna,Beach,Dry,Long,Low,Non-Veg,Camping
+Bengaluru,City,Cool,Short,High,Veg,Camping
+Manali,Hill Station,Dry,Long,High,Veg,Trekking
+Pushkar,Desert,Tropical,Long,Medium,Non-Veg,Camping
+Nainital,Hill Station,Dry,Long,High,Vegan,Relaxing
+Nohkalikai,Waterfall,Moderate,Medium,Medium,Jain,Sightseeing
+Jaisalmer,Desert,Moderate,Long,Low,Non-Veg,Photography
+Kune,Waterfall,Cool,Long,Medium,Vegan,Photography
+Pench,Forest,Moderate,Medium,Low,Non-Veg,Camping
+Ooty,Hill Station,Dry,Short,Medium,Veg,Relaxing
+Gokarna,Beach,Cool,Short,Low,Vegan,Adventure Sports
+Shimla,Hill Station,Moderate,Short,Medium,Veg,Adventure Sports
+Chittorgarh,Fort,Moderate,Medium,High,Non-Veg,Relaxing
+Hyderabad,City,Cool,Medium,Low,Jain,Photography
+Rann of Kutch,Desert,Cool,Short,High,Veg,Trekking
+Barmer,Desert,Moderate,Long,Medium,Jain,Relaxing
+Mumbai,City,Tropical,Long,High,Vegan,Relaxing
+Pushkar,Desert,Tropical,Short,Low,Vegan,Relaxing
+Rann of Kutch,Desert,Dry,Long,Medium,Jain,Trekking
+Nohkalikai,Waterfall,Cool,Short,Low,Veg,Adventure Sports
+Gwalior,Fort,Tropical,Short,Low,Vegan,Trekking
+Hogenakkal,Waterfall,Tropical,Short,High,Jain,Relaxing
+Ahmedabad,City,Moderate,Medium,High,Jain,Sightseeing
+Manali,Hill Station,Tropical,Medium,High,Jain,Photography
+Golconda,Fort,Cool,Short,Low,Vegan,Sightseeing
+Raigad,Fort,Tropical,Medium,Low,Jain,Trekking
+Barmer,Desert,Dry,Medium,Medium,Veg,Camping
+Golconda,Fort,Cool,Medium,Low,Jain,Wildlife Safari
+Bandipur,Forest,Cool,Short,High,Jain,Camping
+Hyderabad,City,Moderate,Short,Low,Vegan,Adventure Sports
+Bhimlat,Waterfall,Cool,Long,High,Non-Veg,Adventure Sports
+Mumbai,City,Dry,Short,Medium,Vegan,Photography
+Bhimlat,Waterfall,Tropical,Short,Medium,Non-Veg,Relaxing
+Gwalior,Fort,Cool,Short,Low,Vegan,Wildlife Safari
+Lonavala,Hill Station,Cool,Medium,Medium,Vegan,Adventure Sports
+Pushkar,Desert,Tropical,Medium,Low,Vegan,Adventure Sports
+Amber,Fort,Cool,Long,High,Vegan,Sightseeing
+Jog Falls,Waterfall,Moderate,Medium,Low,Veg,Adventure Sports
+Jaisalmer,Fort,Moderate,Long,Medium,Jain,Relaxing
+Marina,Beach,Tropical,Long,Medium,Jain,Wildlife Safari
+Jaisalmer,Fort,Moderate,Short,Low,Veg,Relaxing
+Pushkar,Desert,Dry,Medium,Low,Non-Veg,Wildlife Safari
+Gwalior,Fort,Cool,Medium,High,Vegan,Sightseeing
+Kaziranga,Forest,Tropical,Medium,Medium,Non-Veg,Sightseeing
+Rann of Kutch,Desert,Cool,Medium,High,Veg,Wildlife Safari
+Chennai,City,Tropical,Short,Medium,Non-Veg,Camping
+Delhi,City,Cool,Long,High,Non-Veg,Relaxing
+Bengaluru,City,Tropical,Short,Medium,Non-Veg,Sightseeing
+Golconda,Fort,Cool,Long,Low,Veg,Relaxing
+Osian,Desert,Tropical,Long,High,Non-Veg,Relaxing
+Kune,Waterfall,Tropical,Short,Low,Veg,Trekking
+Varkala,Beach,Moderate,Long,Low,Vegan,Adventure Sports
