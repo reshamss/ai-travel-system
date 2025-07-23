@@ -101,13 +101,13 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 
-# Locations to find static files in development
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static"),  # points to myproject1/static/
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # for collectstatic (production)
 
 # Directory where static files will be collected (production)
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
