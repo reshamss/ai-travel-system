@@ -16,7 +16,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-from pathlib import Path,os
+import os
+from pathlib import Path
+
 from django.contrib.messages import constants as messages
 
 LOGIN_REDIRECT_URL = '/dashboard/'  # Redirect to dashboard after login
