@@ -15,6 +15,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 from django.contrib.messages import constants as messages
 
+# Load environment variables from .env file
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -30,9 +31,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['ai-travel-system.onrender.com', 'localhost', '127.0.0.1']
 
 # Login redirect URLs
-LOGIN_REDIRECT_URL = '/dashboard/'  
-LOGIN_URL = '/login/'  
-LOGOUT_REDIRECT_URL = '/login/'  
+LOGIN_REDIRECT_URL = '/dashboard/'
+LOGIN_URL = '/login/'
+LOGOUT_REDIRECT_URL = '/login/'
 
 # Application definition
 INSTALLED_APPS = [
@@ -78,16 +79,16 @@ WSGI_APPLICATION = 'myproject1.wsgi.application'
 # Database configuration using environment variables
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('DB_NAME'),
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
         'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
+        'PORT': os.getenv('DB_PORT', '5432'),
     }
 }
 
-# Password validators
+# Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',},
@@ -101,15 +102,15 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
+# Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 
+# Directories where Django will look for static files during development
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),  # points to myproject1/static/
+    os.path.join(BASE_DIR, "static"),
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # for collectstatic (production)
-
-# Directory where static files will be collected (production)
+# Directory where static files will be collected for production
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
