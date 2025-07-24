@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-8pvqz)iq4r@@%uq00zvohd80y%yh2ez=$nw+_-m(2*iytw8d_8
 DEBUG = True
 
 # Hosts allowed to serve your application
-ALLOWED_HOSTS = ['ai-travel-system.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ai-travel-system2.onrender.com', 'localhost', '127.0.0.1']
 
 # Login redirect URLs
 LOGIN_REDIRECT_URL = '/dashboard/'
