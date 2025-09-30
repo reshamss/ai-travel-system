@@ -26,16 +26,22 @@ from django.urls import path
 from home import views
 
 urlpatterns = [
-    path("", views.index, name="home"),           # Homepage
-    path("dashboard/", views.dashboard, name="dashboard"),  # Dashboard after login
+    path("", views.index, name="home"),           
+    path("dashboard/", views.dashboard, name="dashboard"),  
 ]
+
+
+
+
+
+
 
 from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls')),  # Include all URLs from home app
+    path('', include('home.urls')),  
 ]
 
 

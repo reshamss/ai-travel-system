@@ -39,6 +39,6 @@ class TravelPredictor:
                 print(f"Filtered with keys {filter_keys}, found {len(filtered_df)} matches.")
                 return filtered_df.sample(1).iloc[0]['destination']
 
-        # If no match, return random destination
+        
         print("No filter matched, returning random destination.")
         return df.sample(1).iloc[0]['destination']

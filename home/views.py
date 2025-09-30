@@ -13,7 +13,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from home.travel_predictor import TravelPredictor
 
-# Load predictor once
+
 predictor = TravelPredictor()
 predictor.load_data()
 
@@ -32,7 +32,6 @@ def dashboard(request):
             'activity_preference': request.POST.get('activity_preference', '').strip(),
         }
 
-        # Validate all required fields
         missing = [k for k, v in user_input.items() if not v]
         if missing:
             errors.append(f"Please fill all fields: {', '.join(missing)}")
@@ -62,12 +61,17 @@ def contact(request):
         subject = request.POST.get('subject')
         message = request.POST.get('message')
 
+        
         contact = Contact(name=name, email=email, subject=subject, message=message)
         contact.save()
+
+        
         messages.success(request, "Your message has been successfully sent!")
 
-    return render(request, 'contact.html')
+        return redirect('contact')
 
+    return render(request, 'contact.html')
+ 
 
 def destination(request):
     return render(request,'destination.html')

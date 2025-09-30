@@ -1,2 +1,14 @@
 .env
+myenv/
+ Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv/
+
+# Database (if you don't want to push)
+db.sqlite3
 
